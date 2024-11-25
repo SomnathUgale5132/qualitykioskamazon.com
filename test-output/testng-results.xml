@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-25T01:48:47 IST" name="Suite" finished-at="2024-11-25T01:49:49 IST" duration-ms="62223">
+    <groups>
+    </groups>
+    <test started-at="2024-11-25T01:48:47 IST" name="Test" finished-at="2024-11-25T01:49:49 IST" duration-ms="62223">
+      <class name="testscript.Script">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testscript.Script@59f63e24]" started-at="2024-11-25T01:48:47 IST" name="setup" finished-at="2024-11-25T01:48:55 IST" duration-ms="7862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTheURL()[pri:1, instance:testscript.Script@59f63e24]" started-at="2024-11-25T01:48:55 IST" name="verifyTheURL" finished-at="2024-11-25T01:48:55 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheURL -->
+        <test-method signature="navigateToSignIn()[pri:2, instance:testscript.Script@59f63e24]" started-at="2024-11-25T01:48:55 IST" name="navigateToSignIn" finished-at="2024-11-25T01:48:58 IST" duration-ms="3213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignIn -->
+        <test-method signature="homePgae()[pri:3, instance:testscript.Script@59f63e24]" started-at="2024-11-25T01:48:58 IST" name="homePgae" finished-at="2024-11-25T01:49:05 IST" duration-ms="7414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePgae -->
+        <test-method signature="searchResultsPage()[pri:4, instance:testscript.Script@59f63e24]" started-at="2024-11-25T01:49:05 IST" name="searchResultsPage" finished-at="2024-11-25T01:49:06 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchResultsPage -->
+        <test-method signature="addToCart()[pri:6, instance:testscript.Script@59f63e24]" started-at="2024-11-25T01:49:06 IST" name="addToCart" finished-at="2024-11-25T01:49:19 IST" duration-ms="13082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="paymentPage()[pri:7, instance:testscript.Script@59f63e24]" started-at="2024-11-25T01:49:19 IST" name="paymentPage" finished-at="2024-11-25T01:49:19 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscript.Script@59f63e24]" started-at="2024-11-25T01:49:19 IST" name="tearDown" finished-at="2024-11-25T01:49:49 IST" duration-ms="30004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testscript.Script -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
